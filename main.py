@@ -375,8 +375,8 @@ async def start_handler(_, message):
     help_text = to_bold_unicode("Help")
 
     
-    updates_channel = os.getenv("UPDATES_CHANNEL", "https://t.me/vibeshiftbots")
-    support_group = os.getenv("SUPPORT_GROUP", "https://t.me/Frozensupport1")
+    updates_channel = os.getenv("UPDATES_CHANNEL", "https://t.me/lolspot")
+    support_group = os.getenv("SUPPORT_GROUP", "https://t.me/APNA_WORLD1")
     start_animation = os.getenv(
         "START_ANIMATION",
         "https://frozen-imageapi.lagendplayersyt.workers.dev/file/2e483e17-05cb-45e2-b166-1ea476ce9521.mp4"
@@ -437,8 +437,8 @@ async def go_back_callback(_, callback_query):
     support_text = to_bold_unicode("Support")
     help_text = to_bold_unicode("Help")
 
-    updates_channel = os.getenv("UPDATES_CHANNEL", "https://t.me/vibeshiftbots")
-    support_group = os.getenv("SUPPORT_GROUP", "https://t.me/Frozensupport1")
+    updates_channel = os.getenv("UPDATES_CHANNEL", "https://t.me/lolspot")
+    support_group = os.getenv("SUPPORT_GROUP", "https://t.me/APNA_WORLD1")
 
     caption = (
         f"👋 нєу {user_link} 💠, 🥀\n\n"
